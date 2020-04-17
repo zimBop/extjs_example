@@ -1,0 +1,1 @@
+Ext.define('Podyozhiki.admin.controller.PanelCenter', {	extend: 'Ext.app.Controller',    views: 'Podyozhiki.admin.view.PanelCenter',		init: function () {        console.log('Admin PanelCenter controller init');	}});

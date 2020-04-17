@@ -1,0 +1,1 @@
+Ext.define('Podyozhiki.admin.controller.PanelRight', {    extend: 'Ext.app.Controller',    views: 'Podyozhiki.admin.view.PanelRight',    models: ['Podyozhiki.admin.model.Stand'],		stores: ['Podyozhiki.admin.store.Stand'],    init: function() {      console.log('Admin PanelRight controller init');    }});
